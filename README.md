@@ -1,3 +1,6 @@
+My code: file named "MariaQuestion1.ipynb"
+My slides: pdf called "myslides"
+
 # Project_1_uoft
 
 Note: The data set was cleaned in a way that made it easier to interpret:
