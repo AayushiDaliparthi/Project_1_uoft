@@ -1,5 +1,6 @@
-My code: file named "MariaQuestion1.ipynb"
-My slides: pdf called "myslides"
+My code: file named "MariaQuestion1.ipynb"|
+My slides: pdf called "myslides" |
+My images: file called images with pngs
 
 # Project_1_uoft
 
