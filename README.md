@@ -1,6 +1,6 @@
 # Project_1_uoft
 * Age 18 - Dec is replaced as 0 - 18 years
-* Unnamed: 19", "time_bp.1 & columns deleted during data cleaning
+* Unnamed: 19", "time_bp.1 & travel + work columns deleted during data cleaning
 * Like working from home and dislike working from home are recoded in a scale of 1 - 8 for the purpose of interpretation.
 
 Interpretation 
