@@ -1,3 +1,5 @@
+![Alt text](image-2.png)
+
 ```python
 Project : The effects of COVID-19 on work-related psychological outcomes
 ```
