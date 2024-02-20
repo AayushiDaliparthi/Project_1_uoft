@@ -2,9 +2,7 @@
 Project : The effects of COVID-19 on work-related psychological outcomes
 ```
 
-$$
-Data Cleaning
-$$
+# Data Cleaning
 
 The "Dec-18" age column was recoded, the like/dislike_hw columns were scaled and recoded as 1-8, and columns not relevant to our analysis were removed.
 
@@ -78,7 +76,7 @@ To quantitatively assess the relationship between sleep cycle quality and produc
 
 This finding underscores the critical role of sleep quality in enhancing productivity. However, given the demographic information of the sample, generalizability of this finding is limited.
 
-Limitations
+# Limitations
 
 The dataset utilized in this study, sourced from Kaggle, presents several limitations that warrant consideration when interpreting these results. Unfortunately very little information was provided about this dataset on Kaggle outside of the variable descriptions and general use of scale measurements. Primarily, the lack of information regarding the temporal and geographic context of the study's execution limits the external validity of our findings. The absence of a specific year and location for the data collection impedes our ability to contextualize the findings within the broader timeline and regional variations of the COVID-19 pandemic. Such contextual factors can influence individual behaviors, stress levels, how long people may have been working from home, and more.
 
