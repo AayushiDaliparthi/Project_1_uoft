@@ -1,7 +1,10 @@
-Our png images for our project: folder named "Images"
-Our powerpoint: "Project 1 - Group 3.pdf"
-Our combined code: "main.ipynb"
-Our cleaned data set: "pysco. csv"
+# Our png images for our project: folder named "Images"
+
+# Our powerpoint: "Project 1 - Group 3.pdf"
+
+# Our combined code: "main.ipynb"
+
+# Our cleaned data set: "pysco. csv"
 
 
 ![Alt text](image-2.png)
