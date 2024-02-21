@@ -3,6 +3,16 @@
 ```python
 Project : The effects of COVID-19 on work-related psychological outcomes
 ```
+```python
+Environments used :
+```
+csv
+pathlib
+os
+pandas
+numpy
+matplotlib.pyplot
+scipy
 
 # Data Cleaning
 
