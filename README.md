@@ -45,13 +45,19 @@ easeof_online, home_env are rated in a 5 point scale (1 = bad, 5 = good)
 
 prodinc, sleepball, newskill, famconnect, relaxed, selftime, are rated in a 5 point scale (-1 to +1)
 
-dropped last column: time_bp.1
+like_hw and dislike_hw were accidentally coded as binary values by the authors of this dataset. We recoded and scaled these values on an 8 point scale (1 to 8) in order to interpret these values, which were relabeled as scaled_like_hw and scaled_dislike_hw
+
+dropped columns: like_hw, dislike_hw, recoded_like_hw, recoded_dislike_hw, Unnamed:19, time_bp.1, travel+work
 
 # Sample Demographics
 
 Descriptive statistics were used to clean demographic information about the sample. The sample size of the dataset used is n = 1175, which is a fairly robust number for a psychology study. Gender distribution was nearly balanced, with males representing 55.2% of the total sample, 44.1% female, and 0.7% preferring not to answer. The age of the sample ranged from under 18 to 60+, with the majority of the sample between the ages of 19-25 (n = 345), followed by 26-32 (n = 241). The occupational distribution showed the majority of the sample being working professionals, (n = 479), followed by students in college (n = 358; an unsurprising finding considering the majority of psychology studies are conducted at universities/colleges).
 
-# Interpretation of Data
+# Introduction
+
+The COVID-19 pandemic has undeniably transformed the global landscape, leaving a profound impact on countless facets of human life. From disrupting daily routines to reshaping the contours of the global economy, the ramifications of this public health crisis have been both widespread and deeply personal. Amidst this backdrop, many people have reported significant changes in various aspects of their lives, ranging from psychological well-being to work-related dynamics. To delve deeper into these multifaceted effects, we have sourced a comprehensive dataset from Kaggle, which encompasses a broad spectrum of psychological and work-related outcomes recorded at the height of the COVID-19 pandemic. This analysis aims to explore the intricate relationships between these variables, shedding light on the pandemic's profound influence on individual lives. Through examination of this data, we aspire to uncover the nuanced ways in which the COVID-19 pandemic has affected our daily lives.
+
+# Q1.Does one's profession influence their level of satisfaction or dissatisfaction with working from home?
 
 During the pandemic, professionals of all kinds had to start working from home to keep safe. Some workers in certain environments thrive better in an on-site position while others do better working from their own home. We can see that the line of work that had the most difference of opinion are architecture workers. They heavily dislike working from home. This might be because their work requires more in-person site visits and access to certain tools and resources that might not be available at home. The line of work with the least difference in opinion are "Other", but since we can't interpret what that means, next up are teachers. Teachers are nearly equal in their dislike and like of work from home. This might be due to different teaching styles, the content itself of the course, among many other criteria. I think it's interesting to see how many professions agree and disagree of working from home because it provides valuable insights into the varying dynamics of different industries and the diverse needs and preferences of workers. Understanding these perspectives can inform decisions regarding remote work policies, workplace flexibility, and the future of work arrangements.
 
@@ -59,7 +65,6 @@ For the pie chart, I wanted to take a closer look at a specific line of work. I 
 
 Note: this was just for curiosity's sake but apparently the acronym APSPDCL means Andhra Pradesh Southern Power Distribution Company Limited which is located in India.
 
-# Q1.Does one's profession influence their level of satisfaction or dissatisfaction with working from home?
 There seems to be no steady relationship between the profession and whether the person is satisifed or dissatisfied working from home. Every profession varied in what they do and every answer was either split down the middle or had almost no similarity. Therefore, there is no influence that can be pointed out with this data. However, it's fascinating to observe how individual preferences and circumstances shape one's satisfaction with remote work, regardless of their profession.
 
 # Q2.How do people feel about their home environment?
