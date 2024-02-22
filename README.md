@@ -14,7 +14,7 @@ Project : The effects of COVID-19 on work-related psychological outcomes
 ```
 ```python
 Dependencies used :
-```
+
 csv
 
 pathlib
@@ -28,6 +28,7 @@ numpy
 matplotlib.pyplot
 
 scipy
+```
 
 # Introduction
 
