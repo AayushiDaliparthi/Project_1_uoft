@@ -29,6 +29,10 @@ matplotlib.pyplot
 
 scipy
 
+# Introduction
+
+The COVID-19 pandemic has undeniably transformed the global landscape, leaving a profound impact on countless facets of human life. From disrupting daily routines to reshaping the contours of the global economy, the ramifications of this public health crisis have been both widespread and deeply personal. Amidst this backdrop, many people have reported significant changes in various aspects of their lives, ranging from psychological well-being to work-related dynamics. To delve deeper into these multifaceted effects, we have sourced a comprehensive dataset from Kaggle, which encompasses a broad spectrum of psychological and work-related outcomes recorded at the height of the COVID-19 pandemic. This analysis aims to explore the intricate relationships between these variables, shedding light on the pandemic's profound influence on individual lives. Through examination of this data, we aspire to uncover the nuanced ways in which the COVID-19 pandemic has affected our daily lives.
+
 # Data Cleaning
 
 The "Dec-18" age column was recoded as 0-18, the like/dislike_hw columns were scaled and recoded as 1-8, and columns not relevant to our analysis were removed.
@@ -52,10 +56,6 @@ dropped columns: like_hw, dislike_hw, recoded_like_hw, recoded_dislike_hw, Unnam
 # Sample Demographics
 
 Descriptive statistics were used to clean demographic information about the sample. The sample size of the dataset used is n = 1175, which is a fairly robust number for a psychology study. Gender distribution was nearly balanced, with males representing 55.2% of the total sample, 44.1% female, and 0.7% preferring not to answer. The age of the sample ranged from under 18 to 60+, with the majority of the sample between the ages of 19-25 (n = 345), followed by 26-32 (n = 241). The occupational distribution showed the majority of the sample being working professionals, (n = 479), followed by students in college (n = 358; an unsurprising finding considering the majority of psychology studies are conducted at universities/colleges).
-
-# Introduction
-
-The COVID-19 pandemic has undeniably transformed the global landscape, leaving a profound impact on countless facets of human life. From disrupting daily routines to reshaping the contours of the global economy, the ramifications of this public health crisis have been both widespread and deeply personal. Amidst this backdrop, many people have reported significant changes in various aspects of their lives, ranging from psychological well-being to work-related dynamics. To delve deeper into these multifaceted effects, we have sourced a comprehensive dataset from Kaggle, which encompasses a broad spectrum of psychological and work-related outcomes recorded at the height of the COVID-19 pandemic. This analysis aims to explore the intricate relationships between these variables, shedding light on the pandemic's profound influence on individual lives. Through examination of this data, we aspire to uncover the nuanced ways in which the COVID-19 pandemic has affected our daily lives.
 
 # Q1.Does one's profession influence their level of satisfaction or dissatisfaction with working from home?
 
