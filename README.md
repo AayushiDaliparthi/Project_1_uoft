@@ -4,7 +4,7 @@ Our powerpoint: "Project 1 - Group 3.pdf"
 
 Our combined code: "main.ipynb"
 
-Our cleaned data set: "pysco. csv"
+Our cleaned data set: "pysco.csv"
 
 
 ![Alt text](image-2.png)
@@ -13,14 +13,20 @@ Our cleaned data set: "pysco. csv"
 Project : The effects of COVID-19 on work-related psychological outcomes
 ```
 ```python
-Environments used :
+Dependencies used :
 ```
 csv
+
 pathlib
+
 os
+
 pandas
+
 numpy
+
 matplotlib.pyplot
+
 scipy
 
 # Data Cleaning
